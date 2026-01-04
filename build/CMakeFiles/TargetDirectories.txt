@@ -1,0 +1,3 @@
+/home/sithlord/code/task-scheduler/build/CMakeFiles/task-scheduler.dir
+/home/sithlord/code/task-scheduler/build/CMakeFiles/edit_cache.dir
+/home/sithlord/code/task-scheduler/build/CMakeFiles/rebuild_cache.dir
