@@ -81,12 +81,12 @@ clean: CMakeFiles/task-scheduler.dir/clean
 CMakeFiles/task-scheduler.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=1,2,3 "Built target task-scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target task-scheduler"
 .PHONY : CMakeFiles/task-scheduler.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/task-scheduler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sithlord/code/task-scheduler/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sithlord/code/task-scheduler/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task-scheduler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sithlord/code/task-scheduler/build/CMakeFiles 0
 .PHONY : CMakeFiles/task-scheduler.dir/rule

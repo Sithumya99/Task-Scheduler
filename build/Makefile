@@ -177,6 +177,54 @@ task-scheduler-service/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/main.cpp.s
 .PHONY : task-scheduler-service/main.cpp.s
 
+task-scheduler-service/request.o: task-scheduler-service/request.cpp.o
+.PHONY : task-scheduler-service/request.o
+
+# target to build an object file
+task-scheduler-service/request.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o
+.PHONY : task-scheduler-service/request.cpp.o
+
+task-scheduler-service/request.i: task-scheduler-service/request.cpp.i
+.PHONY : task-scheduler-service/request.i
+
+# target to preprocess a source file
+task-scheduler-service/request.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.i
+.PHONY : task-scheduler-service/request.cpp.i
+
+task-scheduler-service/request.s: task-scheduler-service/request.cpp.s
+.PHONY : task-scheduler-service/request.s
+
+# target to generate assembly for a file
+task-scheduler-service/request.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.s
+.PHONY : task-scheduler-service/request.cpp.s
+
+task-scheduler-service/request_processor.o: task-scheduler-service/request_processor.cpp.o
+.PHONY : task-scheduler-service/request_processor.o
+
+# target to build an object file
+task-scheduler-service/request_processor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o
+.PHONY : task-scheduler-service/request_processor.cpp.o
+
+task-scheduler-service/request_processor.i: task-scheduler-service/request_processor.cpp.i
+.PHONY : task-scheduler-service/request_processor.i
+
+# target to preprocess a source file
+task-scheduler-service/request_processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.i
+.PHONY : task-scheduler-service/request_processor.cpp.i
+
+task-scheduler-service/request_processor.s: task-scheduler-service/request_processor.cpp.s
+.PHONY : task-scheduler-service/request_processor.s
+
+# target to generate assembly for a file
+task-scheduler-service/request_processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task-scheduler.dir/build.make CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.s
+.PHONY : task-scheduler-service/request_processor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +240,12 @@ help:
 	@echo "... task-scheduler-service/main.o"
 	@echo "... task-scheduler-service/main.i"
 	@echo "... task-scheduler-service/main.s"
+	@echo "... task-scheduler-service/request.o"
+	@echo "... task-scheduler-service/request.i"
+	@echo "... task-scheduler-service/request.s"
+	@echo "... task-scheduler-service/request_processor.o"
+	@echo "... task-scheduler-service/request_processor.i"
+	@echo "... task-scheduler-service/request_processor.s"
 .PHONY : help
 
 

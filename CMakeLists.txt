@@ -9,4 +9,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(task-scheduler
     task-scheduler-service/main.cpp
     task-scheduler-service/http_tcpServer.cpp
+    task-scheduler-service/request_processor.cpp
+    task-scheduler-service/request.cpp
 )

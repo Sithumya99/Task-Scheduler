@@ -6,6 +6,7 @@
 #include <arpa/inet.h>
 #include <stdlib.h>
 #include <string>
+#include "request_processor.h"
 
 namespace http {
     class TcpServer {
@@ -22,12 +23,13 @@ namespace http {
         private:
             std::string m_ip_addrress;
             int m_port;
-            int m_socket;
-            int m_new_socket;
+            int m_server_socket;
+            int m_client_socket;
             long m_incoming_messages;
             struct sockaddr_in m_socket_addrress;
             unsigned int m_socket_addrress_len;
             std::string m_serverMessage;
+            RequestProcessor processor;
     };
 }
 #endif

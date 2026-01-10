@@ -97,19 +97,51 @@ CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sithlord/code/task-scheduler/task-scheduler-service/http_tcpServer.cpp -o CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.s
 
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o: CMakeFiles/task-scheduler.dir/flags.make
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o: ../task-scheduler-service/request_processor.cpp
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o: CMakeFiles/task-scheduler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o -MF CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o.d -o CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o -c /home/sithlord/code/task-scheduler/task-scheduler-service/request_processor.cpp
+
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sithlord/code/task-scheduler/task-scheduler-service/request_processor.cpp > CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.i
+
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sithlord/code/task-scheduler/task-scheduler-service/request_processor.cpp -o CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.s
+
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o: CMakeFiles/task-scheduler.dir/flags.make
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o: ../task-scheduler-service/request.cpp
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o: CMakeFiles/task-scheduler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o -MF CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o.d -o CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o -c /home/sithlord/code/task-scheduler/task-scheduler-service/request.cpp
+
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sithlord/code/task-scheduler/task-scheduler-service/request.cpp > CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.i
+
+CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sithlord/code/task-scheduler/task-scheduler-service/request.cpp -o CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.s
+
 # Object files for target task-scheduler
 task__scheduler_OBJECTS = \
 "CMakeFiles/task-scheduler.dir/task-scheduler-service/main.cpp.o" \
-"CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.o"
+"CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.o" \
+"CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o" \
+"CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o"
 
 # External object files for target task-scheduler
 task__scheduler_EXTERNAL_OBJECTS =
 
 task-scheduler: CMakeFiles/task-scheduler.dir/task-scheduler-service/main.cpp.o
 task-scheduler: CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.o
+task-scheduler: CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o
+task-scheduler: CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o
 task-scheduler: CMakeFiles/task-scheduler.dir/build.make
 task-scheduler: CMakeFiles/task-scheduler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable task-scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sithlord/code/task-scheduler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable task-scheduler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task-scheduler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -3,6 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/task-scheduler.dir/task-scheduler-service/http_tcpServer.cpp.o.d"
   "CMakeFiles/task-scheduler.dir/task-scheduler-service/main.cpp.o"
   "CMakeFiles/task-scheduler.dir/task-scheduler-service/main.cpp.o.d"
+  "CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o"
+  "CMakeFiles/task-scheduler.dir/task-scheduler-service/request.cpp.o.d"
+  "CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o"
+  "CMakeFiles/task-scheduler.dir/task-scheduler-service/request_processor.cpp.o.d"
   "task-scheduler"
   "task-scheduler.pdb"
 )
